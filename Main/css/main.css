@@ -1,0 +1,50 @@
+*{
+    margin: 0; padding: 0;
+}
+body{
+    font-size: 14px;
+    background-color: rgb(255, 255, 255);
+}
+a {
+    text-decoration-line: none;
+    color: black;
+}
+li{
+    list-style-type: none;
+}
+.wrap{  /*제일 겉에 있는 박스*/
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+nav {
+    /* position: fixed;
+    top: 0; left: 0; right: 0; */
+    height: 40px;
+    /* background-color: aqua; */
+    /* float: left; */
+   
+}
+
+header{
+    height: 100px;
+}
+
+main{
+    height: 100%;
+    border: 1px solid red;
+}
+
+footer{
+        height: 50px;
+        background-color: blue;
+        position: relative;
+        
+}
+.clear{
+    clear: both;
+}
+/*기본 레이아웃*/
+
+

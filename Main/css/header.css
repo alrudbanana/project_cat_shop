@@ -1,0 +1,91 @@
+.top_nav_menu {
+height: 39px;
+}
+
+.L_top_menu{
+    margin-left: 10px;
+    float: left;
+}
+
+.L_top_menu li{
+    display: inline;
+    margin: 2px; padding: 2px;
+    float: left; 
+}
+.logo  {
+    height: 98px;
+    border: 1px solid red;
+    text-align: center;
+}
+.logo img{ /*로고 이미지 크기 조정*/
+    width: 250px;
+}
+
+.search_bar {
+    float: right;
+    position: relative;
+    top: 40px;
+    width: 140px;
+    right: 160px;
+}
+
+.search_bar input {
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 4px 12px;
+    font-size: 12px;
+    background-color: pink;
+}
+
+.search_bar img {
+    position: absolute;
+    width: 14px;
+    top: 5px;
+    right: -9px;
+    margin: 0px;
+}
+/*상단메뉴2*/
+.top_nav_menu_2 {
+
+    margin-top: 2px;
+    border: 1px solid rebeccapurple;
+    
+}
+.top_nav_menu_2 ul{
+    /* margin-top: 10px; */
+    display: inline-block;
+    padding: 0 10px;
+    /* text-align: center; 가운데 정렬 */
+}
+
+.top_nav_menu_2 li{
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    /* padding:10px 25px 10px 25px; */
+}
+
+.top_nav_menu_2 li a{
+    display: inline-block;
+    padding: 10px ;
+    display: inline-block;
+}
+
+.top_nav_menu_2 li:hover > a {
+   background-color: rgba(255, 192, 203, 0.5);
+} 
+/*메인*/
+.right {
+    float: right;
+}
+
+.slide_banner input[id*="slide"] {
+    display: none;
+}
+
+.slide_banner .slidewrap {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}

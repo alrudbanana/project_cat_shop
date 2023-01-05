@@ -1,5 +1,11 @@
 .top_nav_menu {
 height: 39px;
+padding-top: 1px;
+}
+.top_nav_menu > div{
+display: inline; 
+float: right;
+margin:2px; padding: 2px;   
 }
 
 .L_top_menu{
@@ -12,6 +18,7 @@ height: 39px;
     margin: 2px; padding: 2px;
     float: left; 
 }
+
 .logo  {
     height: 98px;
     border: 1px solid red;
@@ -45,47 +52,51 @@ height: 39px;
     right: -9px;
     margin: 0px;
 }
-/*상단메뉴2*/
+/*상단메뉴 제목메뉴*/
 .top_nav_menu_2 {
-
     margin-top: 2px;
-    border: 1px solid rebeccapurple;
-    
+    border: 1.5px solid rgb(181, 179, 179);
 }
+
 .top_nav_menu_2 ul{
     /* margin-top: 10px; */
-    display: inline-block;
+    display: block;
     padding: 0 10px;
-    /* text-align: center; 가운데 정렬 */
+    text-align: center; 
 }
 
 .top_nav_menu_2 li{
     display: inline-block;
-    width: 150px;
+    width: 170px;
     text-align: center;
     /* padding:10px 25px 10px 25px; */
 }
 
-.top_nav_menu_2 li a{
-    display: inline-block;
-    padding: 10px ;
-    display: inline-block;
+.top_nav_menu_2 li > a{
+    display: block;
+    padding: 12px;
 }
 
-.top_nav_menu_2 li:hover > a {
-   background-color: rgba(255, 192, 203, 0.5);
+.top_nav_menu_2 > li:hover > a {
+   background-color: rgba(255, 192, 203, 0.2);
 } 
+/*상단 메뉴 제목 설정 끝 */
+
+.top_nav_menu_2 > ul ul {
+    display: none; /*평소에 보여지는게 아니므로 none*/
+    position: absolute; /*나타나고 사라짐에 있어서 주변에 영향을 주지 않는다.*/
+    top:100%; left: -5%;
+}
+
+.top_nav_menu_2 li:hover > .sub_menu {
+    display: block;
+    background-color: rgba(255, 192, 203, 0.5);
+}
+
+.top_nav_menu_2 li{
+    position: relative; /*하위메뉴의 absolute를 지배하는 위치*/
+    top:0; left:0;
+    
+}
+
 /*메인*/
-.right {
-    float: right;
-}
-
-.slide_banner input[id*="slide"] {
-    display: none;
-}
-
-.slide_banner .slidewrap {
-    max-width: 1200px;
-    margin: 0 auto;
-    overflow: hidden;
-}

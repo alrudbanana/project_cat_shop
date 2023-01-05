@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Main</title>
     <link type="text/css" rel="stylesheet" href="css/main.css">
     <link type="text/css" rel="stylesheet" href="css/header.css">
 </head>
@@ -13,15 +13,17 @@
     <div class ="wrap">
 
         <nav class="top_nav_menu"> 
-            <ul class="L_top_menu">
+        <ul class="L_top_menu">
             <li><a href="#">로그인</a></li>
             <li><a href="#">회원가입</a></li>
             <li><a href="#">장바구니</a></li>
             <li><a href="#">주문조회</a></li>
             <li><a href="#">마이페이지</a></li>
-            <li id="right"><a href="#">포토리뷰</a></li>
-            <li id="right"><a href="#">커뮤니티</a></li>
-            </ul>
+        </ul>
+        
+            <div><a href="#">포토리뷰</a></div>
+            <div><a href="#">포토리뷰</a></div>
+
         </nav>
 
         <div class="clear"></div>
@@ -38,66 +40,47 @@
             </div>
         </header>
 
+        <!--Main tap 메뉴 -->
         <nav class="top_nav_menu_2">
             <ul>
                 <li><a href="#">신상품</a></li>
-                <li><a href="#">장난감</a></li>
+                <li><a href="#">장난감</a>
+                    <ul class ="sub_menu">
+                        <li><a href="#">막대장난감</a></li>
+                        <li><a href="#">기타장난감</a></li>
+                        <li><a href="#">자동장난감</a></li>
+                        <li><a href="#">기타장난감</a></li>
+                        <li><a href="#">캣닢,마따따비</a></li>
+                    </ul>
+                </li>
                 <li><a href="#">캣닢,마따따비</a></li>
-                <li><a href="#">패션</a></li>
-                <li><a href="#">생활용품</a></li>
+                <li><a href="#">패션</a>
+                    <ul class ="sub_menu">
+                        <li><a href="#">모자</a></li>
+                        <li><a href="#">케이프</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">생활용품</a>
+                    <ul class ="sub_menu">
+                        <li><a href="#">위생미용용품</a></li>
+                    </ul>
+                </li>
                 <li><a href="#">정기배송</a></li>
                 <li><a href="#">타임세일</a></li>
-                <li><a href="#">COMMUNITY</a></li>
+                <li><a href="#">COMMUNITY</a>
+                    <ul class ="sub_menu">
+                        <li><a href="#">공지사항</a></li>
+                        <li><a href="#">이벤트</a></li>
+                        <li><a href="#">사용후기</a></li>
+                        <li><a href="#">상품문의</a></li>
+                        <li><a href="#">고객센터</a></li>
+                        <li><a href="#">제휴/입점/수출</a></li>
+                    </ul>
+                </li>
             </ul>
         </nav> 
 
-        <!--고정-->
-    <main>
-        <section class="slide_banner">
-                <input type="radio" nema="slide" id="slide01" checked>
-                <input type="radio" nema="slide" id="slide02">
-                <input type="radio" nema="slide" id="slide03">
-            <div class="slidewrap">
-                <ul class="slidelist.">
-                    <li>
-                        <a>
-                            <label for="slide03" class="left"></label>
-                            <img src="img/Main1.jpg">
-                            <label for="slide02" class="right"></label>
-                        </a>
-                    </li>
 
-                    <li>
-                        <a>
-                            <label for="slide01" class="left"></label>
-                            <img src="img/Main2.jpg">
-                            <label for="slide03" class="right"></label>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a>
-                            <label for="slide02" class="left"></label>
-                            <img src="img/Main3.jpg">
-                            <label for="slide01" class="right"></label>
-                        </a>
-                    </li>
-                </ul>
-            <li>
-                        <a>
-                            <label for="slide03" class="left"></label>
-                            <img src="img/Main1.jpg">
-                            <label for="slide02" class="right"></label>
-                        </a>
-                    </li>
-            </div>
-        </section>
-
-        <section>위클리베스트</section>
-        <section>신상품</section>
-        <section>각종정보</section>
-    </main>
-            
         <!--고정-->
         <footer>
             <!-- 회사정보  -->

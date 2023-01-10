@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>all</title>
+
+
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#all").load("alll.html");
+            $("#headers").load("main.html");  // 원하는 파일 경로를 삽입하면 된다
+            $("#index_main").load("main_banner.html");  // 추가 인클루드를 원할 경우 이런식으로 추가하면 된다
+            $("#footer").load("footer.html");
+        });
+    </script>
+</head>
+
+
+<body>
+
+<!-- 바디 -->
+<div id="all"></div>
+<div id="headers"></div>
+<div id="index_main"></div>
+<div id="footer"></div>
+</body>
+</html>

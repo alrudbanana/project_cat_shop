@@ -1,0 +1,53 @@
+*{
+  margin: 0; padding: 0;
+}
+
+body{
+  font-size: 14px;
+  background-color: rgb(255, 255, 255);
+}
+
+a {
+  text-decoration-line: none;
+  color: black;
+}
+li{
+  list-style-type: none;
+}
+
+.wrap{  /*제일 겉에 있는 박스*/
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+
+nav {
+  height: 40px;
+   background-color: gold;
+}
+
+header{
+  background-color: aqua;
+  height: 100px;
+}
+
+main{
+  height: 1080px;
+  border: 1px solid red;
+  background-color: pink;
+  position: relative;
+}
+
+footer {
+
+      height: 100%;
+      /* position: fixed;
+      bottom: 0; */
+  }
+
+.clear{
+  clear: both;
+}
+/*기본 레이아웃*/
+
+
